@@ -1,0 +1,158 @@
+phenomenon,phenomenon2,utterance,domain,Comments
+basic,,count to 10,arithmetic,
+basic,,count to 10 by twos,arithmetic,
+basic,,is five a prime number,arithmetic,
+basic,,what is the square root of five,arithmetic,
+basic,,how many square millimeters are there in one acre,conversions,
+basic,,convert 5 pounds to kilograms,conversions,
+basic,,how big is jupiter,everyday knowledge,"weight, diameter, surface area, or radius should all be reasonable interpretations of ""big"" for a planet."
+basic,,what is the largest planet in the solar system,everyday knowledge,
+basic,,what's the diameter of jupiter,everyday knowledge,
+basic,,How tall is Barack Obama,everyday knowledge,
+basic,,How tall is Barack Obama in meters,everyday knowledge,
+basic,,how many calories does broccoli have,everyday knowledge,
+basic,,name the planets of the solar system,everyday knowledge,
+basic,,list the planets of the solar system,everyday knowledge,
+basic,,what are the planets of the solar system,everyday knowledge,
+basic,,who is the president of the United States,everyday knowledge,
+basic,,how many dwarf planets are there,everyday knowledge,
+basic,,how many planets are there,everyday knowledge,
+basic,,does the earth have a moon,everyday knowledge,
+basic,,which planets have moons,everyday knowledge,
+basic,,how much does a liter of water weigh,everyday knowledge,metric or English weight is ok
+basic,,how much does a liter of water weigh in pounds,everyday knowledge,
+basic,,when will the moon be full,everyday knowledge,
+basic,,when is the next full moon,everyday knowledge,
+basic,,will there be a full moon on March 23,everyday knowledge,
+basic,,where is the nearest pizza place,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,what movies are playing nearby,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,what movies are playing around here,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,are there any sushi restaurants within 5 miles of here,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,how many sushi restaurants are there within 5 miles of here,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,are there any japanese restaurants near here,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,what Japanese restaurants are near here,local business search,"ok if exact location is wrong, since we aren't testing knowledge"
+basic,,put milk on my shopping list,reminders,
+basic,,show my shopping list,reminders,
+basic,,what time is it,time and date,
+basic,,what is the current time,time and date,
+basic,,what's the time,time and date,
+basic,,what is today's date,time and date,
+basic,,what's today,time and date,
+basic,,what's the date,time and date,
+basic,,is this Friday,time and date,
+basic,,is today Tuesday,time and date,
+basic,,what day will Thanksgiving be this year,time and date,
+basic,,what day of the week is April 10?,time and date,
+basic,,Is April 10 a Wednesday,time and date,
+basic,,When is the second Sunday in April?,time and date,
+basic,,set an alarm for 5:00,timers and alarms,"nice if it asks about 5:00 a.m. vs. 5:00 p.m., but either was counted as ok"
+basic,,set a timer for 1 minute,timers and alarms,
+basic,,time 5 minutes,timers and alarms,
+basic,,how long does my timer have left,timers and alarms,
+basic,,pause the timer,timers and alarms,
+basic,,will it rain tomorrow,weather,
+basic,,is it going to rain tomorrow,weather,
+basic,,will it be rainy tomorrow,weather,
+basic,,will it be hot tomorrow,weather,"""hot"" is a matter of opinion, of course and depends on the season. Just giving the forecast should be reasonable, especially for intermediate temperatures."
+basic,,will it be below 40 degrees tonight,weather,"""it"" wasn't considered an anaphoric pronoun in this context"
+comparison,,which is bigger jupiter or saturn,everyday knowledge,"weight, diameter, surface area, or radius should all be reasonable metrics for ""big"" for a planet."
+comparison,,is jupiter larger than saturn?,everyday knowledge,"weight, diameter, surface area, or radius should all be reasonable metrics for ""big"" for a planet."
+comparison,,Do any planets have more than 5 moons?,everyday knowledge,
+comparison,,which planet has the most moons?,everyday knowledge,
+comparison,,what planets don't have any moons?,everyday knowledge,
+comparison,,who is the tallest president,everyday knowledge,
+comparison,negation,who is the tallest president other than him?,everyday knowledge,
+comparison,disjunction,"which has more calories, broccoli or an apple",everyday knowledge,
+comparison,,name the oldest president of the United States,everyday knowledge,
+comparison,,who are the oldest two presidents of the United States,everyday knowledge,
+comparison,,which weighs more the planet Venus or the earth,everyday knowledge,
+comparison,,what is the largest moon of jupiter,everyday knowledge,
+comparison,negation,"what is the largest moon of jupiter, other than ganymede",everyday knowledge,
+comparison,counting,what is the second largest moon of jupiter,everyday knowledge,
+comparison,,what is the smallest moon of jupiter,everyday knowledge,"fyi, it is called S/2010 J 2"
+comparison,,what is the nearest star,everyday knowledge,"Sun, Proxima Centauri or Alpha Centauri all reasonable. Ideally, if the answer is ""the sun"", the system should add the second closest star, because that's probably what the user meant -- however, it is literally true that the sun is the closest star"
+comparison,negation,what is the nearest star besides the sun,everyday knowledge,Proxima Centauri or Alpha Centauri
+comparison,ellipsis,put cream cheese on the list whatever is the smallest package,reminders,
+comparison,,put the smallest package of cream cheese that they have on my list,reminders,
+conditionals,pronoun,if I have milk on my shopping list take it off,reminders,
+conjunction,,put eggs and milk on my list,reminders,wrong if they are all listed as one item
+conjunction,,put a dozen eggs and a gallon of milk on my list,reminders,wrong if they are all listed as one item
+conjunction,ellipsis,put skim and 1 percent milk on my shopping list,reminders,wrong if they are all listed as one item
+conjunction,,put milk coffee and cat food on my shopping list,reminders,wrong if they are all listed as one item
+conjunction,,remind me to buy milk coffee and cat food,reminders,wrong if they are all listed as one item
+conjunction,,set a one minute timer and a two minute timer,timers and alarms,
+conjunction,,set a 30 minute timer for the brownies and a five minute timer for the chicken,timers and alarms,
+conjunction,,will tomorrow's temperature be between 40 and 80 degrees,weather,
+definite/indefinite,,name the president of the United States,everyday knowledge,
+definite/indefinite,,name a president of the United States,everyday knowledge,
+disjunction,,are there any Thai or Vietnamese restaurants near here,local business search,Ok if restaurants that serve both Thai and Vietnamese food are listed
+disjunction,ellipsis,put skim or 1 percent milk on my shopping list,reminders,
+disjunction,,is it Tuesday or Wednesday,time and date,
+elipsis,,are there any movies,local business search,
+ellipsis,,How tall is Barack Obama … in meters,everyday knowledge,
+ellipsis,,which planets don't,everyday knowledge,"following ""which planets have moons"""
+ellipsis,,add milk,reminders,"that is, ""add milk to my shopping list"""
+ellipsis,,what is the date Monday after next,time and date,
+ellipsis,,set a timer to go off in a minute and then again after two minutes,timers and alarms,
+ellipsis,time expression,set a time to go off every minute for 5 minutes and then stop,timers and alarms,
+ellipsis,,add 30 seconds,timers and alarms,"that is, ""add 30 seconds to my ongoing timer"""
+ellipsis,time expression,and what about tomorrow,weather,"following ""weather for today"""
+implicature,,where can I get file folders,local business search,
+implicature,,I'm hungry for Chinese food,local business search,
+implicature,,I'm looking for Japanese food,local business search,
+implicature,,Japanese food would be nice,local business search,
+implicature,,it's time for Japanese food,local business search,
+implicature,,how about Japanese food,local business search,
+implicature,,I feel like Japanese food tonight,local business search,
+implicature,,I need cream cheese,reminders,
+implicature,negation,I don't need milk,reminders,
+implicature,,I need cat food,reminders,
+implicature,,let me know after 5 minutes has passed,timers and alarms,
+implicature,,I need to get up early tomorrow,timers and alarms,
+implicature,,I need to know when it's 4:00,timers and alarms,
+implicature,,can you tell me when it's 4:00,timers and alarms,
+implicature,,is it nice out today,weather,"""nice"" is subjective, a forecast is acceptable"
+implicature,,will I need an umbrella tomorrow,weather,
+implicature,,will I have to wear my raincoat tomorrow,weather,
+inference,,convert 5 pounds to metric,everyday knowledge,"that is, the metric unit of weight"
+negation,,"what are the planets of the solar system, not counting dwarf planets",everyday knowledge,
+negation,pronoun,"what are the planets of the solar system, not counting dwarf ones",everyday knowledge,
+negation,,are there any dwarf planets besides Pluto,everyday knowledge,
+negation,pronoun,are there any dwarf planets besides Pluto and what are their names,everyday knowledge,
+negation,,"aside from Pluto, what dwarf planets are there",everyday knowledge,
+negation,,which planets don't have moons,everyday knowledge,
+negation,quantification,are there any planets that don't have moons,everyday knowledge,
+negation,,where is the nearest pizza place except Papa John's,local business search,"to test this, may need to substitute an appropriate local alternative to ""Papa John's"""
+negation,,what sushi restaurants are there within 5 miles other than blue fin,local business search,"to test this, substitute an appropriate local alternative to ""Blue Fin"""
+negation,,are there any non Japanese Asian restaurants near here,local business search,
+negation,,"it's not Thursday, is it?",time and date,
+negation,,"it won't rain tomorrow, will it",weather,
+out of domain,,what do I have in my pocket,unknowable,
+out of domain,,what color is my shirt,unknowable,
+out of domain,,what did I have for lunch,unknowable,
+out of domain,,who will be elected president in 2016,unknowable,
+plurals and recurrance,,what are the two largest planets in the solar system,everyday knowledge,
+plurals and recurrance,,what pizza restaurants are near here?,local business search,
+conditionals,pronoun,if I have milk on my shopping list take it off,reminders,
+pronoun,conjunction,what is the largest planet in the solar system and what's its diameter?,everyday knowledge,
+pronoun,ellipsis,…which ones don't,everyday knowledge,
+pronoun,,put milk on my shopping list ..make that skim milk,reminders,
+quantification,,how many calories does a pound of broccoli have,everyday knowledge,
+quantification,,name every president of the United States,everyday knowledge,
+quantification,,does every planet have moons,everyday knowledge,
+quantification,,do all the planets in the solar system have moons,everyday knowledge,
+quantification,,how many moons does jupiter have,everyday knowledge,
+quantification,comparison,where are the three closest sushi restaurants,local business search,
+time expression,,what time will it be in five minutes,time and date,
+time expression,,what time will it be five minutes from now,time and date,
+time expression,,what date will it be two weeks from now,time and date,
+time expression,,what day will it be two weeks after Thanksgiving this year,time and date,
+time expression,,how long is it until three o'clock,time and date,
+time expression,plurals and recurrence,set a timer to go off once every minute,timers and alarms,
+time expression,plurals and recurrence,set a timer to go off every minute for 5 minutes,timers and alarms,
+time expression,definiteness,add 30 seconds to the timer,timers and alarms,
+time expression,,will the temperature be going down to below 40 degrees tonight,weather,
+time expression,,will the temperature have gone down to 50 degrees by midnight,weather,
+time expression,,what will the temperature be at 7:00 p.m.,weather,
+time expression,,what was yesterday's high temperature,weather,acceptable if it says that it doesn't know about past temperatures
+time expression,,what is tonight's low temperature,weather,
